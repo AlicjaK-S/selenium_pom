@@ -11,6 +11,7 @@ class RegistrationDataGenerator:
         if self.GENDER == Gender.FEMALE:
             self.FIRST_NAME = self.fake.first_name_female()
         else:
-            self.FirstName = self.fake.first_name_male()
+            self.FIRST_NAME = self.fake.first_name_male()
+        self.EMAIL = self.fake.email()
 
 
